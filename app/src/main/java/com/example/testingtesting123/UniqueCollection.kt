@@ -1,5 +1,7 @@
 package com.example.testingtesting123
 
+import android.util.Log
+
 class UniqueCollection {
     private val collection = ArrayList<Item>()
 
@@ -24,7 +26,7 @@ class UniqueCollection {
 
     /** Clear all items from hte collection */
     fun clear () {
-
+        collection.clear()
     }
 
     /** Return the side of the collection */
